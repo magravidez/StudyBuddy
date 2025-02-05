@@ -1,0 +1,202 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/background">
+
+    <ScrollView android:id="@+id/homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <View
+                android:id="@+id/homepagebg"
+                android:background="@drawable/background"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="1080px"
+                android:layout_height="2400px" />
+
+            <ImageView
+                android:id="@+id/studybuddylogo"
+                android:src="@drawable/studybuddylogo"
+                android:contentDescription="studybuddylogo"
+                android:layout_marginStart="63dp"
+                android:layout_marginTop="31dp"
+                android:layout_width="234.64dp"
+                android:layout_height="210dp" />
+
+            <TextView
+                android:id="@+id/welcomemessage"
+                android:layout_width="282dp"
+                android:layout_height="66dp"
+                android:layout_marginStart="43dp"
+                android:layout_marginTop="240dp"
+                android:fontFamily="@font/inter_regular"
+                android:gravity="center"
+                android:text="@string/welcomemessage"
+                android:textColor="@color/textcolor"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:id="@+id/professionoptions"
+                android:layout_marginTop="320dp"
+                android:layout_marginStart="90dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+
+                <RelativeLayout
+                    android:id="@+id/doctorrl"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/doctor"
+                        android:layout_width="180dp"
+                        android:layout_height="32dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="7.5dp"
+                        android:background="@drawable/buttonbg"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center"
+                        android:text="@string/doctor"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/grammarianrl"
+                    android:layout_marginTop="37dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:id="@+id/grammarian"
+                        android:layout_width="180dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="7.5dp"
+                        android:background="@drawable/buttonbg"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center"
+                        android:text="@string/grammarian"
+                        android:textColor="@color/textcolor"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/mathematicianrl"
+                    android:layout_marginTop="74dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:id="@+id/mathematician"
+                        android:layout_width="180dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="7.5dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center"
+                        android:background="@drawable/buttonbg"
+                        android:text="@string/mathematician"
+                        android:textColor="@color/textcolor"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/professorrl"
+                    android:layout_marginTop="111dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:id="@+id/professor"
+                        android:layout_width="180dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="7.5dp"
+                        android:background="@drawable/buttonbg"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center"
+                        android:text="@string/professor"
+                        android:textColor="@color/textcolor"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/psychometricianrl"
+                    android:layout_marginTop="148dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:id="@+id/psychometrician"
+                        android:layout_width="180dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="7.5dp"
+                        android:background="@drawable/buttonbg"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center"
+                        android:text="@string/psychometrician"
+                        android:textColor="@color/textcolor"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/scientistrl"
+                    android:layout_marginTop="185dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <TextView
+                        android:id="@+id/scientist"
+                        android:layout_width="180dp"
+                        android:layout_height="32dp"
+                        android:layout_gravity="center_horizontal|center"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="7.5dp"
+                        android:fontFamily="@font/inter_regular"
+                        android:gravity="center"
+                        android:background="@drawable/buttonbg"
+                        android:text="@string/scientist"
+                        android:textColor="@color/textcolor"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

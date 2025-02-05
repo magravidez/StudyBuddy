@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/studybuddyicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/studybuddyicon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudyBuddy"
+        tools:targetApi="35">
+
+        <activity
+            android:name=".Homepage"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SessionType"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Location"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".DistanceRange"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".Budget"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".ProgressBar_Loading"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".ProgressBar_Complete"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".ListOfProfessionals"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".JennieKim"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".MattyHealy"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".RobertPattinson"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".ShinRyujin"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".WillieRevillame"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".BookAppointment"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:exported="true">
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,158 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <View
+                android:layout_width="1080dp"
+                android:layout_height="2400dp"
+                android:background="@drawable/background" />
+
+            <ImageView
+                android:id="@+id/studybuddylogo"
+                android:layout_width="234.64dp"
+                android:layout_height="210dp"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/studybuddylogo"
+                android:contentDescription="Study Buddy Logo" />
+
+            <TextView
+                android:id="@+id/book_appointment_header"
+                android:layout_width="342dp"
+                android:layout_height="66dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="240dp"
+                android:fontFamily="@font/inter_regular"
+                android:gravity="center"
+                android:text="@string/book_appointment"
+                android:textColor="@color/textcolor"
+                android:textSize="20sp" />
+
+            <RelativeLayout
+                android:id="@+id/select_date_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="53dp"
+                android:layout_marginTop="8dp"
+                android:layout_below="@id/book_appointment_header"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/date_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/dateicon"
+                    android:contentDescription="Date Icon" />
+
+                <TextView
+                    android:id="@+id/select_date_button"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/date_icon"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/buttonbg"
+                    android:gravity="center"
+                    android:text="@string/select_date"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:padding="8dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/select_time_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="53dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/select_date_container"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/time_icon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="8dp"
+                    android:src="@drawable/timeicon"
+                    android:contentDescription="Time Icon" />
+
+                <TextView
+                    android:id="@+id/select_time_button"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/time_icon"
+                    android:background="@drawable/buttonbg"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/select_time"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:padding="8dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/confirm_appointment_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="105dp"
+                android:layout_below="@id/select_time_container">
+
+                <TextView
+                    android:id="@+id/confirm_appointment_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonbg"
+                    android:gravity="center"
+                    android:text="Confirm Appointment"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp"
+                    android:padding="8dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/backbuttonrl"
+                android:layout_marginTop="574dp"
+                android:layout_marginStart="143dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/backbutton"
+                    android:layout_width="10dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="10dp"
+                    android:contentDescription="backbutton"
+                    android:src="@drawable/backbutton" />
+
+                <TextView
+                    android:id="@+id/back"
+                    android:layout_width="45dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="28dp"
+                    android:fontFamily="@font/inter_regular"
+                    android:gravity="center"
+                    android:text="@string/back"
+                    android:textColor="@color/textcolor"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

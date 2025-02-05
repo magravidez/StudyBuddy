@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StudyBuddy</string>
+
+    <string name="welcomemessage">Hi there!\nWho are you looking for?</string>
+    <string name="doctor">Doctor</string>
+    <string name="grammarian">Grammarian</string>
+    <string name="mathematician">Mathematician</string>
+    <string name="professor">Professor</string>
+    <string name="psychometrician">Psychometrician</string>
+    <string name="scientist">Scientist</string>
+
+    <string name="sessiontypequestion">What type of session(s) would you like to have?</string>
+    <string name="online"><b>Online</b> (via chat rooms\nor video conferencing\nmethods)</string>
+    <string name="facetoface"><b>Face-to-Face</b> (meetups)</string>
+    <string name="both">Both</string>
+    <string name="back">Back</string>
+
+    <string name="locationquestion">Where are you currently located?</string>
+    <string name="cavite">Cavite</string>
+    <string name="cebu">Cebu</string>
+    <string name="davao">Davao</string>
+    <string name="laguna">Laguna</string>
+    <string name="manila">Manila</string>
+    <string name="makati">Makati</string>
+
+    <string name="distancerangequestion">Within what distance range would\nyou like to find potential matches?</string>
+    <string name="onetothreekm">1 - 3 km</string>
+    <string name="fourtosixkm">4 - 6 km</string>
+    <string name="seventotenkm">7 - 10 km</string>
+    <string name="doesntmatter">Distance range does not\nmatter, as I only prefer\nonline sessions</string>
+
+    <string name="budgetquestion">What is your budget per session?\n(1 hour/session)</string>
+    <string name="optionone">500 - 1,500</string>
+    <string name="optiontwo">1,501 - 3,000</string>
+    <string name="optionthree">3,001 - 5,000</string>
+    <string name="optionfour">5,001 or higher</string>
+
+    <string name="progressbar_loadingtext">Finding your best match of\nprofessionals...\n\n\n\n\n\n\n\n\nPlease wait.\nThis will only take a minute or less...</string>
+
+    <string name="progressbar_completetext">Finding your best match of\nprofessionals...\n\n\n\n\n\n\n\n\n\n<b>Complete!</b></string>
+    <string name="press">Press this button to continue</string>
+
+    <string name="jenniekim"><b>Dr. Jennie Kim, DDS, MSc</b></string>
+    <string name="aboutjenniekim">• Doctor of Dental Medicine\n• General Dentist at YG Hospital\n• With 10 Years of Experience\n• Within 3km of Reach\n• ₱1,000/Session</string>
+    <string name="mattyhealy">Ar. Matty Healy, MArch, NCARB</string>
+    <string name="aboutmattyhealy">• Architect \n• Project Architect at Dirty Hit Association\n• With 1975 Years of Experience\n• Within 4 km of Reach\n• ₱1,500/Session</string>
+    <string name="robertpattinson">Mr. Robert Pattinson, PhD, MA</string>
+    <string name="aboutrobertpattinson">• Grammarian\n• Editor-in-Chief at Twilight Publishing Corporation\n• With 100 years of Experience\n• Within 2 km of Reach\n• ₱5,000/Session</string>
+    <string name="shinryujin">Prof. Shin Ryujin, PhD, BA</string>
+    <string name="aboutshinryujin">• Degree Holder in History\n• History Professor at ITZY De Manila University\n• With 5 Years of Experience\n• Within 7 km of Reach\n• ₱2,000/Session</string>
+    <string name="willierevillame">Mr. Willie Revillame, Ph.D., IAU</string>
+    <string name="aboutwillierevillame">• Astronomer\n• Capsule Communicator at WOW Space\n• With 10 Years of Experience\n• Within 8 km of Reach\n• ₱3,000/Session</string>
+    <string name="searchbartext">Search</string>
+
+    <string name="jkreviews">4.7/5 (116 Reviews)</string>
+    <string name="contactdetails">Contact Details:</string>
+    <string name="whattodonext">What to Do Next:</string>
+    <string name="jknumber">0912 345 6789</string>
+    <string name="jkemail">jennierubyjane@gmail.com</string>
+    <string name="bookanappointment">Book an Appointment</string>
+    <string name="chat">Chat</string>
+    <string name="videocall">Video Call</string>
+
+    <string name="mhreviews">5/5 (408 Reviews)</string>
+    <string name="mhnumber">0991 234 5678</string>
+    <string name="mhemail">trumanblack@gmail.com</string>
+
+    <string name="rpreviews">5/5 (513 Reviews)</string>
+    <string name="rpnumber">0989 123 4567</string>
+    <string name="rpemail">official.robert.pttnsn@gmail.com</string>
+
+    <string name="srreviews">4.9/5 (417 Reviews)</string>
+    <string name="srnumber">0978 912 3456</string>
+    <string name="sremail">itzme_shinryujin17@gmail.com</string>
+
+    <string name="wrreviews">3/5 (127 Reviews)</string>
+    <string name="wrnumber">0967 891 2345</string>
+    <string name="wremail">willierevillame@gmail.com</string>
+
+    <string name="book_appointment">Book an Appointment</string>
+    <string name="select_date">Select Date</string>
+    <string name="select_time">Select Time</string>
+</resources>
